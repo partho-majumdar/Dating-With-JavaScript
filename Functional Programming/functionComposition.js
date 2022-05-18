@@ -1,0 +1,13 @@
+function input(inp) {
+  console.log(inp);
+}
+
+function multiplyByFive(n) {
+  return n * 5;
+}
+
+function add(a, b) {
+  return a + b;
+}
+
+input(multiplyByFive(add(4, 5)));
